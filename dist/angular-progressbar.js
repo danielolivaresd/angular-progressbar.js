@@ -1,4 +1,4 @@
-angular.module("ngProgressbar")
+angular.module("ngProgressbar", [])
 .directive("progressCircle", function(){
   return {
     restrict: "AE",
