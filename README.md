@@ -2,9 +2,10 @@
 kimmobrunfeldt's Progressbar.js AngularJS wrapper
 
 # Installation
-Add the package via bower
+Add the package via bower or npm
 ```
 bower install angular-progressbar.js
+npm install angular-progressbar.js
 ```
 Include progressbar[.min].js and angular-progressbar.js it in your markup
 ```
