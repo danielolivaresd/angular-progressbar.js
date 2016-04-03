@@ -1,0 +1,29 @@
+{
+  "name": "angular-progressbar.js",
+  "version": "1.0.0",
+  "description": "Progressbar.js AngularJS wrapper",
+  "main": "dist/angular-progressbar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K1N5L4Y3R/angular-progressbar.js.git"
+  },
+  "keywords": [
+    "angular",
+    "progress",
+    "progressbar",
+    "progressbar.js",
+    "progressbarjs",
+    "animate",
+    "circle",
+    "svg"
+  ],
+  "author": "Daniel Olivares (danieloddl2@hotmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/K1N5L4Y3R/angular-progressbar.js/issues"
+  },
+  "homepage": "https://github.com/K1N5L4Y3R/angular-progressbar.js#readme"
+}
