@@ -1,5 +1,5 @@
 # angular-progressbar.js
-kimmobrunfeldt's Progressbar.js AngularJS wrapper
+kimmobrunfeldt's Progressbar.js AngularJS wrapper [(http://kimmobrunfeldt.github.io/progressbar.js/)](http://kimmobrunfeldt.github.io/progressbar.js/)
 
 # Installation
 Add the package via bower or npm
@@ -16,7 +16,7 @@ Include angular dependency
 ```
 angular.module('yourModule', ['ngProgressbar', ...])
 ```
-# Directiives
+# Directives
 ### Circle progress
 ```
 <progress-circle amount="45"></progress-circle>
