@@ -4,7 +4,7 @@
     "Daniel Olivares <danieloddl2@hotmail.com>"
   ],
   "description": "Progressbar.js AngularJS wrapper",
-  "main": "",
+  "main": "dist/angular-progressbar.js",
   "moduleType": [],
   "keywords": [
     "angular",
