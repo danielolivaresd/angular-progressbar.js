@@ -26,6 +26,7 @@
   ],
   "dependencies": {
     "angular": "^1.5.3",
-    "progressbar.js": "^1.0.0"
+    "progressbar.js": "^1.0.0",
+    "jquery": "^2.2.3"
   }
 }

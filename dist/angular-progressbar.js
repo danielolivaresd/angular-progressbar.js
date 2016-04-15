@@ -18,4 +18,23 @@ angular.module("ngProgressbar", [])
       circle.animate(attrs.amount/100);
     }
   }
+})
+.directive("progressHexagon", function(){
+  return {
+    restrict: "AE",
+    scope: {
+      amount: "=",
+      bgStrokeWidth: "=",
+      bgStrokeColor: "=",
+      strokeWidth: "=",
+      strokeColor: "="
+    },
+    link: function(scope, element, attrs){
+      var path = new ProgressBar.Path($(element).find(".hexagon-path")[0], {
+        
+      });
+      path.animate(attrs.amount/100);
+    },
+    template: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 173.20508075688772 200"><path fill-opacity="0" stroke-width="{{ bgStrokeWidth || 0.3 }}" stroke="#{{ bgStrokeColor || \'949494\' }}"  d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"></path><path class="hexagon-path" fill-opacity="0" stroke-width="{{ strokeWidth || 0.3 }}" stroke="#{{ strokeColor || \'949494\' }}"  d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"></path></svg>'
+  }
 });
