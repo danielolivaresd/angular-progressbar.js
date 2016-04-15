@@ -26,3 +26,12 @@ You can set `color`, `stroke-width`, `fill`, `trail-color`, `trail-width` and `t
 ```
 <progress-circle amount="45" color="#FFFFFF" text="text" ></progress-circle>
 ```
+
+### Hexagon progress
+```
+<progress-hexagon amount="20" bg-stroke-width="0.5" bg-stroke-color="'c3c3c3'" stroke-width="1" stroke-color="'d9bd2a'"></progress-hexagon>
+```
+
+Defaults:
+bgStrokeWidth, strokeWidth = 0.3
+bgStrokeColor, strokeColor = #949494
