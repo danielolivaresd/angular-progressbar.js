@@ -11,6 +11,7 @@ Include progressbar[.min].js and angular-progressbar.js it in your markup
 ```
 <script src=".../progressbar.js/dist/progressbar.min.js"></script>
 <script src=".../angular-progressbar.js/dist/angular-progressbar.js"></script>
+<script src=".../jquery/dist/jquery.js"></script>
 ```
 Include angular dependency
 ```
