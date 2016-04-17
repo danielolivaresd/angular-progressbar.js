@@ -23,13 +23,14 @@ angular.module("ngProgressbar", [])
   return {
     restrict: "AE",
     scope: {
-      amount: "=",
+      amount: "@",
       bgStrokeWidth: "=",
       bgStrokeColor: "=",
       strokeWidth: "=",
       strokeColor: "="
     },
     link: function(scope, element, attrs){
+      console.log(attrs.amount);
       var path = new ProgressBar.Path($(element).find(".hexagon-path")[0], {
         
       });
